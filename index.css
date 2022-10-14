@@ -1,0 +1,127 @@
+nav{
+    display: flex;
+    left: 70px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+
+
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 100px;
+    transition: 0.4s;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover{
+    color: #fadc0a;
+    transition: 0.3s;
+}
+body{
+    background: linear-gradient(-10deg,rgb(0, 0, 0),rgb(160, 160, 160),rgb(82, 82, 82));
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 97.6vh;
+}
+img{
+    cursor: pointer;
+    left: 10px;
+}
+.text{
+    position: absolute;
+    top: 90px;
+    left: 110px;
+
+}
+h1{
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Staatliches', cursive;
+    background: linear-gradient(-10deg,#fadc0a,#eadc5d,#060606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.image{
+    position: absolute;
+    right: 10px;
+    top: 150px;
+    
+}
+.logo{
+    filter: drop-shadow(0 0 23px #fadc0a);
+
+}
+.text2{
+    position: absolute;
+    top: 260px;
+    left: 80px;
+}
+p{
+    
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Michroma', sans-serif;
+}
+.sos{
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 110px;
+}
+.tnone{
+    mix-blend-mode: multiply;
+    transition: 0.3s;
+}
+.tntwo{
+    mix-blend-mode: multiply;
+    transition: 0.3s;
+
+}
+.tntr{
+    mix-blend-mode: multiply;
+    transition: 0.3s;
+
+}
+.tnone:hover{
+    transform: scale(1.5);
+
+}
+.tntwo:hover{
+    transform: scale(1.5);
+    
+}
+.tntr:hover{
+    transform: scale(1.5);
+    
+}
+.buy{
+    position: absolute;
+    top: 400px;
+    left: 570px;
+   
+}
+h2{
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 14px;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Sarabun', sans-serif;
+    cursor: pointer;
+
+}
+h2:hover{
+    color: #fadc0a;
+    background-color: rgba(0, 0, 0, 0.315);
+    
+}
+i{
+    top: 630px;
+    position: absolute;
+}
